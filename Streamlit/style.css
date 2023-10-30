@@ -1,0 +1,132 @@
+[data-testid="stSidebar"]{
+    background-color: #2a2a2a; /* fondo oscuro */
+    color: #ffffff; /* texto blanco */
+    border: 3px solid #8a8a8a; /* borde gris */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+[data-testid="stSidebarNav"]{
+    background-color: #2a2a2a; /* fondo oscuro */
+    color: #ffffff; /* texto blanco */
+    border: 3px solid #8a8a8a; /* borde gris */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+[data-testid="column"]{
+    background-color: #ffffff; /* fondo gris claro */
+    color: #000000; /* texto negro */
+    border: 3px solid #8a8a8a; /* borde gris */
+
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+[data-testid="button"]{
+    color: #ffffff; /* texto blanco */
+    background-color: #2a2a2a; /* fondo oscuro */
+    border: 3px solid #8a8a8a; /* borde gris */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+[data-testid="stWidgetLabel"]{
+    color: #000000; /* texto negro */
+    text-align: center;
+}
+
+
+
+[data-testid="stTable"]{
+    border: 3px solid #8a8a8a; /* borde gris */
+    background-color: #2a2a2a; /* fondo oscuro */
+}   
+
+/* RADIO */
+[data-testid="stRadio"]{
+    border: 3px solid #8a8a8a; /* borde gris */
+    background-color: #2a2a2a; /* fondo oscuro */
+    color: #ffffff; /* texto blanco */
+}  
+[data-testid="stRadio"] label {
+    color: #ffffff; /* color de texto blanco para el label */
+
+}
+
+/* Botones */
+div.row-widget.stButton{
+    color: #ffffff; /* texto blanco */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+div.row-widget.stButton button:hover{
+
+    color: #28a745 !important; /* texto blanco al pasar el ratón por encima */
+    border-color: #28a745 !important; /* color del borde verde claro al pasar el ratón por encima */
+}
+
+div.row-widget.stButton button:active{
+
+    background-color:  #28a745 !important;
+    color: #ffffff !important; /* texto blanco al pasar el ratón por encima */
+    border-color: #28a745 !important; /* color del borde verde claro al pasar el ratón por encima */
+}
+
+
+[data-testid="tooltipHoverTarget"] svg {
+    fill: #2a2a2a; /* color de relleno para el icono de ? */
+}
+
+[data-testid="StyledLinkIconContainer"]{
+
+    color: #000000; /* texto blanco */
+    font: small-caps 100%/200% serif;
+
+}
+
+
+.streamlit-expanderHeader {
+    color: #ffffff; /* texto blanco */
+    background-color: #2a2a2a; /* fondo oscuro */
+    border: 3px solid #8a8a8a; /* borde gris */
+    border-radius: 10px;
+}
+
+.streamlit-expanderHeader p{
+    font-size: 15px;
+    
+}
+.streamlit-expanderHeader button:hover{
+    color: #28a745 !important; /* texto blanco al pasar el ratón por encima */
+    border-color: #28a745 !important; /* color del borde verde claro al pasar el ratón por encima */
+    
+}
+.streamlit-expanderContent {
+    color: #ffffff; /* texto blanco */
+
+    background-color: #2a2a2a; /* fondo oscuro */
+    border: 3px solid #8a8a8a; /* borde gris */
+    border-radius: 10px;
+}
+
+.streamlit-expanderContent li{
+    font-size: 12px;  /* Reemplaza 'tu_tamaño_de_fuente' con el tamaño de fuente que prefieras, por ejemplo: 20px */
+}
+
+.stAlert p {
+    color: #000000; /* texto blanco */
+}
